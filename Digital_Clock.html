@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Digital Clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>World Digital Clock</h1>
+    </header>
+    <main class="container">
+        <p>Select a time zone to display the current time and details.</p>
+        <select id="timezone-selector" class="timezone-dropdown">
+            <option value="local">Local Time</option>
+            <option value="UTC">UTC Time</option>
+            <option value="PST">PST Time</option>
+            <option value="EST">EST Time</option>
+            <option value="IST">IST Time</option>
+        </select>
+        <div class="clock-and-format">
+            <select id="format-selector" class="format-dropdown">
+                <option value="24-hour">24-Hour</option>
+                <option value="12-hour">12-Hour</option>
+            </select>
+            <div class="clock-container" id="clock">--:--:--</div>
+        </div>
+        <div id="timezone-detail">Your device's current time zone.</div>
+    </main>
+    <footer>
+        <p>&copy; 2024. All rights reserved Reddy Bhuvan Korlakunta.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
