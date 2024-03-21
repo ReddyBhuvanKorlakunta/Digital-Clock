@@ -1,4 +1,4 @@
-README file for your World Digital Clock project that includes the HTML, JavaScript, and CSS files.
+README file for World Digital Clock project that includes the HTML, JavaScript, and CSS files.
 
 ---
 
@@ -46,4 +46,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 - Reddy Bhuvan Korlakunta, for creating and maintaining this project.
 - All contributors and users who provide valuable feedback and suggestions.
-# Digital-Clock
